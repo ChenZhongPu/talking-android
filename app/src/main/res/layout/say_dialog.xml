@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    >
+
+    <EditText
+        android:id="@+id/friend_fromET"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:hint="填写名字"
+
+        />
+    <EditText
+        android:id="@+id/friend_say_content"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:minHeight="100dp"
+        android:singleLine="false"
+        android:hint="评论内容"
+        android:layout_below="@id/friend_fromET"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/friend_say_content"
+        android:gravity="center"
+        android:layout_marginLeft="50dp"
+        >
+
+        <Button
+            android:id="@+id/say_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/ok"
+
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

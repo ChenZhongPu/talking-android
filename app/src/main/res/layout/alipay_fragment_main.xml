@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    >
+
+    <RelativeLayout
+        android:id="@+id/ali_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/ali_actionbar_color"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        >
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:background="@null"
+            android:gravity="center"
+            android:textSize="@dimen/ali_username_font"
+            android:text="@string/default_username"
+            android:padding="10dp"
+            />
+
+        </RelativeLayout>
+
+
+    <RelativeLayout
+            android:id="@+id/ali_bottom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="3dp"
+            android:background="@color/wechat_bottom_color"
+            >
+
+
+        <RelativeLayout
+            android:id="@+id/ali_bottom_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ali_menu_pencil"
+                android:layout_width="@dimen/ali_menu_size"
+                android:layout_height="@dimen/ali_menu_size"
+                android:src="@drawable/ali_one"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                />
+
+            <ImageView
+                android:id="@+id/ali_menu_smile"
+                android:layout_width="@dimen/ali_menu_size"
+                android:layout_height="@dimen/ali_menu_size"
+                android:src="@drawable/ali_two"
+                android:layout_toRightOf="@id/ali_menu_pencil"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/ali_menu_size"
+                android:layout_toLeftOf="@+id/ali_btn_pay"
+                android:layout_toRightOf="@id/ali_menu_smile"
+                android:background="@drawable/ali_text_shape"
+                android:hint="@string/ali_default_hint"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="4dp"
+                />
+
+            <Button
+                android:id="@id/ali_btn_pay"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/ali_menu_size"
+                android:background="@drawable/ali_btn_shape"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:text="付款"
+                android:textColor="#aaaaaa"
+                />
+
+            </RelativeLayout>
+
+          <LinearLayout
+              android:id="@+id/ali_bottom_two"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:layout_below="@id/ali_bottom_one"
+              android:paddingTop="6dp"
+
+              android:visibility="gone"
+              >
+
+            <ImageView
+                android:id="@+id/ali_from_menu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/write"
+                />
+
+             <ImageView
+                 android:id="@+id/ali_time_menu"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight="1"
+                 android:src="@drawable/time"
+                 />
+              <ImageView
+                  android:id="@+id/ali_to_menu"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="1"
+                  android:src="@drawable/write"
+                  />
+              </LinearLayout>
+
+        </RelativeLayout>
+
+    <ListView
+        android:id="@+id/alipay_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ali_bottom"
+        android:layout_below="@id/ali_bar_layout"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:divider="@null"
+        android:dividerHeight="2dp"
+        android:scrollbars="none"
+        android:cacheColorHint="#000"
+        >
+    </ListView>
+
+ </RelativeLayout>

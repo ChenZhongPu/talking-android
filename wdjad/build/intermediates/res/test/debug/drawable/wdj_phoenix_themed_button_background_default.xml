@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="false" android:drawable="@color/wandou_ad_blue_disabled"/>
+    <item android:state_pressed="true" android:drawable="@color/wandou_ad_blue_pressed"/>
+    <item android:drawable="@color/wandou_ad_blue_normal"/>
+</selector><!-- From: file:/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable/wdj_phoenix_themed_button_background_default.xml --><!-- From: file:/home/chenzhongpu/IdeaProjects/Talking/wdjad/build/intermediates/bundles/debug/res/drawable/wdj_phoenix_themed_button_background_default.xml -->

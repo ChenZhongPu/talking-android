@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res" >
+            <file
+                name="color_tab_text_default"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/color/color_tab_text_default.xml"
+                qualifiers=""
+                type="color" />
+            <file
+                name="color_tab_text_green"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/color/color_tab_text_green.xml"
+                qualifiers=""
+                type="color" />
+            <file
+                name="background_tab"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable/background_tab.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="wdj_ad_card_background_flat"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable/wdj_ad_card_background_flat.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="wdj_ad_card_background_highlight"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable/wdj_ad_card_background_highlight.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="wdj_ads_action_button_background"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable/wdj_ads_action_button_background.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="wdj_ads_card_background_normal"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable/wdj_ads_card_background_normal.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="wdj_ads_detail_install_button_background"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable/wdj_ads_detail_install_button_background.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="wdj_ads_progress_bar_background"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable/wdj_ads_progress_bar_background.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="wdj_phoenix_themed_button_background_default"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable/wdj_phoenix_themed_button_background_default.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="wdj_phoenix_themed_button_background_grey"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable/wdj_phoenix_themed_button_background_grey.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="bg_explore_actionbar"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-hdpi/bg_explore_actionbar.9.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="bg_explore_bottombar_shadow"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-hdpi/bg_explore_bottombar_shadow.9.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="wdj_ads_card_highlighted"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-hdpi/wdj_ads_card_highlighted.9.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="wdj_ads_card_normal"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-hdpi/wdj_ads_card_normal.9.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="wdj_ads_card_pressed"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-hdpi/wdj_ads_card_pressed.9.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="bg_explore_actionbar"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-mdpi/bg_explore_actionbar.9.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="bg_explore_bottombar_shadow"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-mdpi/bg_explore_bottombar_shadow.9.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="wdj_ads_card_highlighted"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-mdpi/wdj_ads_card_highlighted.9.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="wdj_ads_card_normal"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-mdpi/wdj_ads_card_normal.9.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="wdj_ads_card_pressed"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-mdpi/wdj_ads_card_pressed.9.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="bg_explore_actionbar"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-xhdpi/bg_explore_actionbar.9.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="bg_explore_bottombar_shadow"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-xhdpi/bg_explore_bottombar_shadow.9.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="wdj_ad_close_button_background"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-xhdpi/wdj_ad_close_button_background.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="wdj_ads_card_highlighted"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-xhdpi/wdj_ads_card_highlighted.9.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="wdj_ads_card_normal"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-xhdpi/wdj_ads_card_normal.9.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="wdj_ads_card_pressed"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-xhdpi/wdj_ads_card_pressed.9.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="wdj_ads_close_widget_button_background"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-xhdpi/wdj_ads_close_widget_button_background.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="wdj_ads_empty_background"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-xhdpi/wdj_ads_empty_background.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="wdj_ads_title_back_normal"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-xhdpi/wdj_ads_title_back_normal.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="wdj_superior_app_icon"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-xhdpi/wdj_superior_app_icon.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="wdj_activity_app_wall"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/layout/wdj_activity_app_wall.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="wdj_activity_app_widget_container"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/layout/wdj_activity_app_widget_container.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="wdj_ad_banner_item_layout"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/layout/wdj_ad_banner_item_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="wdj_ad_banner_layout"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/layout/wdj_ad_banner_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="wdj_ad_interstitial_big_picture"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/layout/wdj_ad_interstitial_big_picture.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="wdj_ad_tab_view"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/layout/wdj_ad_tab_view.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="wdj_app_item_in_ads_view"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/layout/wdj_app_item_in_ads_view.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="wdj_app_list_view"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/layout/wdj_app_list_view.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="wdj_app_widget_view"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/layout/wdj_app_widget_view.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="wdj_fragment_ad_widget"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/layout/wdj_fragment_ad_widget.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="wdj_fragment_ads_detail"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/layout/wdj_fragment_ads_detail.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="wdj_interstitial_activity_layout"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/layout/wdj_interstitial_activity_layout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="wdj_load_more_list_footer"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/layout/wdj_load_more_list_footer.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="wdj_smart_advew_default"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/layout/wdj_smart_advew_default.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="wdj_tab_fragment"
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/layout/wdj_tab_fragment.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/values/psts_attrs.xml"
+                qualifiers="" >
+                <declare-styleable name="PagerSlidingTabStrip" >
+                    <attr
+                        name="pstsIndicatorColor"
+                        format="color" />
+                    <attr
+                        name="pstsUnderlineColor"
+                        format="color" />
+                    <attr
+                        name="pstsDividerColor"
+                        format="color" />
+                    <attr
+                        name="pstsIndicatorHeight"
+                        format="dimension" />
+                    <attr
+                        name="pstsUnderlineHeight"
+                        format="dimension" />
+                    <attr
+                        name="pstsDividerPadding"
+                        format="dimension" />
+                    <attr
+                        name="pstsTabPaddingLeftRight"
+                        format="dimension" />
+                    <attr
+                        name="pstsScrollOffset"
+                        format="dimension" />
+                    <attr
+                        name="pstsTabBackground"
+                        format="reference" />
+                    <attr
+                        name="pstsShouldExpand"
+                        format="boolean" />
+                    <attr
+                        name="pstsTextAllCaps"
+                        format="boolean" />
+                    <attr
+                        name="pstsTabTextColor"
+                        format="color" />
+                </declare-styleable>
+            </file>
+            <file
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/values/wdj_colors.xml"
+                qualifiers="" >
+                <color name="wandou_font_color_black" >#222222
+                </color>
+                <color name="wandou_ads_green_pressed" >#278918
+                </color>
+                <color name="wandou_ad_blue_pressed" >#3479d4
+                </color>
+                <color name="wandou_ads_grey_pressed" >#e8e8e8
+                </color>
+                <color name="wandou_grey" >#ebebeb
+                </color>
+                <color name="wandou_font_color_white" >#FFFFFF
+                </color>
+                <color name="background_tab_pressed" >#6633B5E5
+                </color>
+                <color name="wandou_white" >#f7f7f7
+                </color>
+                <color name="wandou_ads_grey_normal" >#eeeeee
+                </color>
+                <color name="wandou_light_yellow" >#ffffffd3
+                </color>
+                <color name="wandou_ads_green_disabled" >#98cc8e
+                </color>
+                <color name="wandou_ad_blue_disabled" >#9fc4ee
+                </color>
+                <color name="wandou_ads_green_normal" >#FF3baa24
+                </color>
+                <color name="wandou_ad_blue_normal" >#4e9ce6
+                </color>
+            </file>
+            <file
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/values/wdj_dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+                <dimen name="wdj_ad_container_horizontal_margin" >8dip
+                </dimen>
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="screenshot_height" >170dip
+                </dimen>
+                <dimen name="wallpaper_divider_width" >1dp
+                </dimen>
+                <dimen name="screenshot_width" >108dip
+                </dimen>
+            </file>
+            <file
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/values/wdj_ids.xml"
+                qualifiers="" >
+                <item
+                    name="tag_key_ad_type"
+                    type="id"/>
+                <item
+                    name="tag_key_ads_item_position"
+                    type="id"/>
+                <item
+                    name="tag_key_ad_id"
+                    type="id"/>
+                <item
+                    name="tag_key_ads_item_downloading"
+                    type="id"/>
+                <item
+                    name="tag_key_ad_package"
+                    type="id"/>
+            </file>
+            <file
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/values/wdj_strings.xml"
+                qualifiers="" >
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="ads_next_text" >换一个
+                </string>
+                <string name="ads_install_at_once_text" >立即安装
+                </string>
+                <string name="wdj_ad_cancel" >取消
+                </string>
+                <string name="no_result_text" >正在为您加载...
+                </string>
+                <string name="wdj_ad_confirm_title" >确认下载 「%1$s」
+                </string>
+                <string name="action_settings" >Settings
+                </string>
+                <string name="app_name" >AdsSdk
+                </string>
+                <string name="download_count" >%1$s人安装
+                </string>
+                <string name="netop_network_error" >网络无法访问，请您检查手机的网络设置。
+                </string>
+                <string name="ads_install_text" >安装
+                </string>
+                <string name="wdj_ad_download" >下载
+                </string>
+            </file>
+            <file
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/values/wdj_style.xml"
+                qualifiers="" >
+
+                <style
+                    name="GenericProgressBackground"
+                    parent="android:Theme" >
+                    <item name="android:layout_width">
+fill_parent
+                    </item>
+                    <item name="android:layout_height">
+fill_parent
+                    </item>
+                    <item name="android:background">
+#DD111111
+                    </item>
+                    <item name="android:gravity">
+center
+                    </item>
+                </style>
+
+                <style
+                    name="text_message_count_tab"
+                    parent="text_message_count" >
+                    <item name="android:layout_height">
+14dip
+                    </item>
+                    <item name="android:layout_width">
+wrap_content
+                    </item>
+                    <item name="android:minWidth">
+14dip
+                    </item>
+                    <item name="android:includeFontPadding">
+false
+                    </item>
+                    <item name="android:textSize">
+10dip
+                    </item>
+                    <item name="android:textStyle">
+normal
+                    </item>
+                    <item name="android:paddingLeft">
+2dip
+                    </item>
+                    <item name="android:paddingRight">
+2dip
+                    </item>
+                </style>
+
+                <style
+                    name="GenericProgressIndicator"
+                    parent="@android:style/Widget.ProgressBar" >
+                    <item name="android:layout_width">
+wrap_content
+                    </item>
+                    <item name="android:layout_height">
+wrap_content
+                    </item>
+                    <item name="android:indeterminate">
+true
+                    </item>
+                </style>
+
+                <style name="detail_description" >
+                    <item name="android:ellipsize">
+end
+                    </item>
+                    <item name="android:textColor">
+#333333
+                    </item>
+                    <item name="android:textSize">
+13dip
+                    </item>
+                    <item name="android:lineSpacingExtra">
+3dip
+                    </item>
+                    <item name="android:paddingLeft">
+15dp
+                    </item>
+                    <item name="android:paddingRight">
+15dp
+                    </item>
+                    <item name="android:paddingTop">
+12dp
+                    </item>
+                </style>
+
+                <style name="text_message_count" >
+                    <item name="android:layout_width">
+20dp
+                    </item>
+                    <item name="android:layout_height">
+20dp
+                    </item>
+                    <item name="android:background">
+#f24949
+                    </item>
+                    <item name="android:gravity">
+center
+                    </item>
+                    <item name="android:textColor">
+#ffffff
+                    </item>
+                    <item name="android:textSize">
+13dp
+                    </item>
+                    <item name="android:textStyle">
+bold
+                    </item>
+                </style>
+            </file>
+            <file
+                path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/values-land/wdj_dimens.xml"
+                qualifiers="land" >
+                <dimen name="wdj_ad_container_horizontal_margin" >100dip
+                </dimen>
+            </file>
+        </source>
+        <source path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/build/generated/res/rs/release" />
+        <source path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/build/generated/res/generated/release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="/home/chenzhongpu/IdeaProjects/Talking/wdjad/src/release/res" />
+    </dataSet>
+
+</merger>

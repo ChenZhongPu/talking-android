@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:id="@+id/ali_money"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="输入金钱"
+        android:text="100.00"
+        />
+    <EditText
+        android:id="@+id/ali_money_txt"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="输入说明"
+        android:text="保养你"
+        />
+    <Button
+        android:id="@+id/ali_input_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ok"
+        />
+</LinearLayout>

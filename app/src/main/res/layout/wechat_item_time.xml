@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:padding="6dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:id="@+id/wechat_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:textSize="12sp"
+            android:textColor="#ffffff"
+            android:background="#bfbfbf"
+            android:layout_centerInParent="true"
+            android:gravity="center_horizontal"
+            />
+
+        <LinearLayout
+            android:id="@+id/wechat_swipe_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            >
+            <ImageView
+                android:id="@+id/wechat_undoswipe_btn"
+                style="@style/wechat_undo_del_style"
+                android:layout_weight="1"
+                />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="2dp"
+                android:background="@color/del_line_color"
+                android:layout_weight="10"
+                />
+
+            <ImageView
+                android:id="@+id/wechat_swipe_btn"
+                style="@style/wechat_swipe_del_style"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/values/wdj_colors.xml -->
+    <eat-comment />
+
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="wandou_ad_blue_disabled">#9fc4ee</color>
+    <color name="wandou_ad_blue_normal">#4e9ce6</color>
+    <color name="wandou_ad_blue_pressed">#3479d4</color>
+    <color name="wandou_ads_green_disabled">#98cc8e</color>
+    <color name="wandou_ads_green_normal">#FF3baa24</color>
+    <color name="wandou_ads_green_pressed">#278918</color>
+    <color name="wandou_ads_grey_normal">#eeeeee</color>
+    <color name="wandou_ads_grey_pressed">#e8e8e8</color>
+    <color name="wandou_font_color_black">#222222</color>
+    <color name="wandou_font_color_white">#FFFFFF</color>
+    <color name="wandou_grey">#ebebeb</color>
+    <color name="wandou_light_yellow">#ffffffd3</color>
+    <color name="wandou_white">#f7f7f7</color>
+    <!-- From: file:/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/values/psts_attrs.xml -->
+    <eat-comment />
+
+    <declare-styleable name="PagerSlidingTabStrip">
+        <attr name="pstsIndicatorColor" format="color" />
+        <attr name="pstsUnderlineColor" format="color" />
+        <attr name="pstsDividerColor" format="color" />
+        <attr name="pstsIndicatorHeight" format="dimension" />
+        <attr name="pstsUnderlineHeight" format="dimension" />
+        <attr name="pstsDividerPadding" format="dimension" />
+        <attr name="pstsTabPaddingLeftRight" format="dimension" />
+        <attr name="pstsScrollOffset" format="dimension" />
+        <attr name="pstsTabBackground" format="reference" />
+        <attr name="pstsShouldExpand" format="boolean" />
+        <attr name="pstsTextAllCaps" format="boolean" />
+        <attr name="pstsTabTextColor" format="color" />
+    </declare-styleable>
+    <!-- From: file:/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/values/wdj_dimens.xml -->
+    <eat-comment />
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="screenshot_height">170dip</dimen>
+    <dimen name="screenshot_width">108dip</dimen>
+    <dimen name="wallpaper_divider_width">1dp</dimen>
+    <dimen name="wdj_ad_container_horizontal_margin">8dip</dimen>
+    <!-- From: file:/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/values/wdj_ids.xml -->
+    <eat-comment />
+
+    <item name="tag_key_ad_id" type="id"/>
+    <item name="tag_key_ad_package" type="id"/>
+    <item name="tag_key_ad_type" type="id"/>
+    <item name="tag_key_ads_item_downloading" type="id"/>
+    <item name="tag_key_ads_item_position" type="id"/>
+    <!-- From: file:/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/values/wdj_strings.xml -->
+    <eat-comment />
+
+    <string name="action_settings">Settings</string>
+    <string name="ads_install_at_once_text">立即安装</string>
+    <string name="ads_install_text">安装</string>
+    <string name="ads_next_text">换一个</string>
+    <string name="app_name">AdsSdk</string>
+    <string name="download_count">%1$s人安装</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="netop_network_error">网络无法访问，请您检查手机的网络设置。</string>
+    <string name="no_result_text">正在为您加载...</string>
+    <string name="wdj_ad_cancel">取消</string>
+    <string name="wdj_ad_confirm_title">确认下载 「%1$s」</string>
+    <string name="wdj_ad_download">下载</string>
+    <!-- From: file:/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/values/wdj_style.xml -->
+    <eat-comment />
+
+    <style name="GenericProgressBackground" parent="android:Theme">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">#DD111111</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="GenericProgressIndicator" parent="@android:style/Widget.ProgressBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:indeterminate">true</item>
+    </style>
+
+    <style name="detail_description">
+        <item name="android:ellipsize">end</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">13dip</item>
+        <item name="android:lineSpacingExtra">3dip</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingTop">12dp</item>
+    </style>
+
+    <style name="text_message_count">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:background">#f24949</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="text_message_count_tab" parent="text_message_count">
+        <item name="android:layout_height">14dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:minWidth">14dip</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textSize">10dip</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:paddingLeft">2dip</item>
+        <item name="android:paddingRight">2dip</item>
+    </style>
+
+</resources>

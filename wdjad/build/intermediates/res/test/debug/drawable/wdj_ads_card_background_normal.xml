@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/wdj_ads_card_normal"
+          android:state_pressed="false"/>
+    <item android:drawable="@drawable/wdj_ads_card_pressed"
+          android:state_pressed="true"/>
+</selector><!-- From: file:/home/chenzhongpu/IdeaProjects/Talking/wdjad/res/drawable/wdj_ads_card_background_normal.xml --><!-- From: file:/home/chenzhongpu/IdeaProjects/Talking/wdjad/build/intermediates/bundles/debug/res/drawable/wdj_ads_card_background_normal.xml -->

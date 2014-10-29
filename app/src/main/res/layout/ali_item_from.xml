@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="6dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        >
+
+        <ImageView
+            android:id="@+id/ali_avatarIV"
+            android:layout_width="@dimen/wechat_user_size"
+            android:layout_height="@dimen/wechat_user_size"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ali_person"
+            android:clickable="true"
+            />
+
+
+        <TextView
+            android:id="@+id/alichat_money"
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_toRightOf="@id/ali_avatarIV"
+            android:layout_toEndOf="@id/ali_avatarIV"
+            android:background="@drawable/ali_fromnew"
+            android:padding="10dp"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

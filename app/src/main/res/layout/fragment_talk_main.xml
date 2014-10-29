@@ -1,0 +1,167 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    >
+
+    <RelativeLayout
+        android:id="@+id/wechat_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/dark"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="horizontal"
+        android:padding="4dp"
+        >
+       <ImageView
+           android:id="@+id/wechat_backmenu"
+           android:layout_width="@dimen/wechat_back_width"
+           android:layout_height="@dimen/wechat_back_height"
+           android:src="@drawable/wechat_back"
+           android:layout_alignParentLeft="true"
+           android:layout_alignParentStart="true"
+           />
+
+       <EditText
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="@color/white"
+           android:text="@string/default_username"
+           android:textSize="@dimen/wechat_username_font"
+           android:layout_toRightOf="@id/wechat_backmenu"
+           android:background="@null"
+           android:layout_marginTop="@dimen/wechat_username_margintop"
+           />
+
+        <ImageView
+            android:layout_width="@dimen/wechat_top_img_w"
+            android:layout_height="@dimen/wechat_top_img_h"
+            android:src="@drawable/person_bar"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            />
+        </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/wechat_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/wechat_bottom_color"
+        >
+
+        <RelativeLayout
+            android:id="@+id/bottom_one_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            >
+
+            <ImageView
+                android:id="@+id/wechat_voice_menu"
+                android:layout_width="@dimen/wechat_bottom_menu_size"
+                android:layout_height="@dimen/wechat_bottom_menu_size"
+                android:src="@drawable/wechat_voice_menu"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="3dp"
+                />
+
+            <EditText
+                android:id="@+id/wechat_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/wechat_voice_menu"
+                android:layout_toLeftOf="@+id/wechat_add_menu"
+
+                />
+
+
+            <ImageView
+                android:id="@id/wechat_add_menu"
+                android:layout_width="@dimen/wechat_bottom_menu_size"
+                android:layout_height="@dimen/wechat_bottom_menu_size"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/wechat_add_menu"
+                android:layout_margin="3dp"
+                />
+            </RelativeLayout>
+
+          <LinearLayout
+              android:id="@+id/bottom_two_layout"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignTop="@id/bottom_one_layout"
+              android:layout_marginTop="40dp"
+              android:layout_marginBottom="3dp"
+              android:visibility="gone"  >
+
+              <ImageView
+                  android:id="@+id/wechat_from_voice_menu"
+
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:src="@drawable/alarm"
+                  android:layout_weight="1"
+                  />
+
+              <ImageView
+                  android:id="@+id/wechat_from_text_menu"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:src="@drawable/write"
+                  android:layout_weight="1"
+                  />
+
+              <ImageView
+                  android:id="@+id/wechat_time_menu"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:src="@drawable/time"
+                  android:layout_weight="1"
+                  />
+
+
+              <ImageView
+                  android:id="@+id/wechat_to_text_menu"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:src="@drawable/write"
+                  android:layout_weight="1"
+                  />
+              <ImageView
+                  android:id="@+id/wechat_to_voice_menu"
+                  android:layout_width="0dp"
+                  android:layout_height="wrap_content"
+                  android:src="@drawable/alarm"
+                  android:layout_weight="1"
+                  />
+
+
+              </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+    <ListView
+        android:id="@+id/wechat_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/wechat_bottom_layout"
+        android:layout_below="@id/wechat_bar_layout"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:divider="@null"
+        android:dividerHeight="2dp"
+        android:scrollbars="none"
+        android:cacheColorHint="#000"
+        >
+        </ListView>
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">220dp</dimen>
+
+
+    <dimen name="chat_top_height">40dp</dimen>
+
+    <dimen name="wechat_back_width">36dp</dimen>
+    <dimen name="wechat_back_height">36dp</dimen>
+
+
+    <dimen name="wechat_username_font">16sp</dimen>
+    <dimen name="wechat_username_margintop">7dp</dimen>
+
+    <dimen name="wechat_top_img_w">36dp</dimen>
+    <dimen name="wechat_top_img_h">36dp</dimen>
+
+    <dimen name="wechat_bottom_menu_size">30dp</dimen>
+
+    <dimen name="wechat_user_size">40dp</dimen>
+
+    <dimen name="qq_bar_back_size">40dp</dimen>
+    <dimen name="qq_bar_msg_font_size">18sp</dimen>
+    <dimen name="qq_bar_msg_margintop">6dp</dimen>
+
+    <dimen name="qq_bar_username_font_size">15sp</dimen>
+
+    <dimen name="qq_bar_online_status">10sp</dimen>
+    <dimen name="qq_bar_menu_padding">4dp</dimen>
+    <dimen name="qq_bottom_padding">10dp</dimen>
+    <dimen name="qq_bottom2_magintop">30dp</dimen>
+
+    <dimen name="qq_avatar_size">45dp</dimen>
+    <dimen name="qq_bottom_menu_one">36dp</dimen>
+
+    <dimen name="ali_username_font">20sp</dimen>
+    <dimen name="ali_menu_size">36dp</dimen>
+    
+    <dimen name="friend_bar_font">18sp</dimen>
+    <dimen name="friend_bar_img">30dp</dimen>
+    <dimen name="friend_avatar">40dp</dimen>
+    <dimen name="friend_user_font">14sp</dimen>
+    <dimen name="friend_content">13sp</dimen>
+
+    <dimen name="friend_time">10sp</dimen>
+    <dimen name="friend_tag_size">20dp</dimen>
+
+    <dimen name="friend_love_font">12sp</dimen>
+
+    <dimen name="friend_love_size">20dp</dimen>
+
+    <dimen name="friend_comment_name_font">11sp</dimen>
+</resources>

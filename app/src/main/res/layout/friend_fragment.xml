@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eee"
+    >
+
+    <RelativeLayout
+        android:id="@+id/friend_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/dark"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        >
+
+        <ImageView
+            android:id="@+id/friend_backmenu"
+            android:layout_width="@dimen/wechat_back_width"
+            android:layout_height="@dimen/wechat_back_height"
+            android:src="@drawable/wechat_back"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            />
+
+         <TextView
+             android:gravity="center"
+
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:textColor="@color/white"
+             android:textSize="@dimen/friend_bar_font"
+             android:layout_toRightOf="@id/friend_backmenu"
+             android:text="@string/title_friend"
+             android:layout_marginTop="4dp"
+             android:layout_marginLeft="8dp"
+             />
+
+        <ImageView
+            android:layout_width="@dimen/friend_bar_img"
+            android:layout_height="@dimen/friend_bar_img"
+            android:src="@drawable/friend_bar_camera"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:padding="2dp"
+            />
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/friend_bar_layout"
+        android:padding="6dp"
+        >
+
+        <ImageView
+            android:id="@+id/friend_avatarIV"
+            android:layout_width="@dimen/friend_avatar"
+            android:layout_height="@dimen/friend_avatar"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/wechat_person_img"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/friend_avatarIV"
+            android:paddingTop="6dp"
+            android:paddingLeft="6dp"
+            android:paddingRight="1dp"
+            >
+
+           <EditText
+               android:id="@+id/friend_username"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@null"
+               android:textSize="@dimen/friend_user_font"
+               android:textColor="@color/friend_user_color"
+               android:text="@string/default_username"
+
+               />
+
+            <EditText
+                android:id="@+id/friend_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/friend_content"
+                android:layout_below="@id/friend_username"
+                android:paddingTop="3dp"
+                android:background="@null"
+                android:text="@string/friend_defalt_content"
+                />
+
+               <RelativeLayout
+                   android:id="@+id/friend_timelayout"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/friend_content"
+                   android:paddingTop="6dp"
+                   android:gravity="center"
+                   >
+
+                <EditText
+                    android:id="@+id/friend_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#666"
+                    android:background="@null"
+                    android:textSize="@dimen/friend_time"
+                    android:text="@string/friend_defalt_time"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="3dp"
+                    />
+                   <ImageView
+                       android:id="@+id/friend_menu_btn"
+                       android:layout_width="@dimen/friend_tag_size"
+                       android:layout_height="@dimen/friend_tag_size"
+                       android:layout_alignParentEnd="true"
+                       android:layout_alignParentRight="true"
+                       android:src="@drawable/friend_comment_tag"
+
+                       />
+                   </RelativeLayout>
+
+               <RelativeLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/friend_timelayout"
+                   android:paddingTop="3dp"
+                   android:background="@drawable/friend_comment_bg"
+                   >
+
+                 <LinearLayout
+                     android:id="@+id/friend_love_layout"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal"
+                     android:layout_marginTop="20dp"
+                     >
+                     <ImageView
+                         android:layout_width="@dimen/friend_love_size"
+                         android:layout_height="@dimen/friend_love_size"
+                         android:src="@drawable/friend_love"
+                         />
+                       <EditText
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:background="@null"
+                           android:textSize="@dimen/friend_love_font"
+                           android:textColor="@color/friend_user_color"
+                           android:text="@string/friend_love_friends"
+                           />
+                     </LinearLayout>
+
+                   <View
+                       android:id="@+id/friend_comment_line"
+                       android:layout_width="match_parent"
+                       android:layout_height="0.1dp"
+                       android:background="@color/friend_line_color"
+                       android:layout_below="@id/friend_love_layout"
+                       android:layout_marginTop="3dp"
+                       />
+
+                   <ListView
+                       android:id="@+id/friend_comment_main"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:layout_below="@id/friend_comment_line"
+                       android:layout_marginLeft="3dp"
+                       android:layout_marginRight="3dp"
+                       android:layout_marginTop="5dp"
+                       android:divider="@null"
+                       android:dividerHeight="1dp"
+                       android:scrollbars="none"
+                       android:cacheColorHint="#000"
+                       >
+                   </ListView>
+
+                   </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+ </RelativeLayout>

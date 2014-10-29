@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        >
+
+        <ImageView
+            android:id="@+id/qq_avatarIV"
+            android:layout_width="@dimen/wechat_user_size"
+            android:layout_height="@dimen/wechat_user_size"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/qq_header_person"
+            android:background="@drawable/draw_shape"
+            android:clickable="true"
+            />
+
+        <TextView
+            android:id="@+id/qqchat_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/qq_avatarIV"
+            android:layout_toStartOf="@id/qq_avatarIV"
+            android:background="@drawable/qq_to_chat"
+            style="@style/wechat_content_style"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

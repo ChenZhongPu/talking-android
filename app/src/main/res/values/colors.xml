@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark">#222</color>
+    <color name="white">#fff</color>
+    <color name="wechat_bottom_color">#f8f8ff</color>
+    <color name="del_line_color">#eee</color>
+    <color name="qq_actionbar_color">#18b4ed</color>
+
+    <color name="ali_actionbar_color">#252a39</color>
+    <color name="friend_user_color">#576b95</color>
+
+    <color name="friend_line_color">#ccc</color>
+</resources>

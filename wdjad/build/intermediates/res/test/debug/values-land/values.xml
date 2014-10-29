@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/home/chenzhongpu/IdeaProjects/Talking/wdjad/build/intermediates/bundles/debug/res/values-land/values.xml -->
+    <eat-comment />
+
+    <dimen name="wdj_ad_container_horizontal_margin">100dip</dimen>
+
+</resources>
