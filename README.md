@@ -4,4 +4,5 @@ talking-android
 对话 安卓APP的源码
 
 
-项目介绍：http://chenzhongpu.github.io/talking/talking.html
+小米商店：http://app.mi.com/detail/75470
+
